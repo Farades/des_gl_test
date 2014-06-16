@@ -1,0 +1,20 @@
+{
+    "name": "scene",
+    "version": "~develop",
+    "targetPath": "bin",
+    "targetType": "executable",
+    "importPaths": [ "src", "descore/import", "des/import", "derelict/import" ],
+    "sourcePaths": [ "src", "descore/import", "des/import", "derelict/import" ],
+    "libs-posix": [ "dl" ],
+
+    "lflags": [ "-L./derelict/lib/dmd" ],
+
+    "libs":
+    [
+        "DerelictUtil",
+        "DerelictFT",
+        "DerelictGL3",
+        "DerelictIL",
+        "DerelictSDL2",
+    ],
+}

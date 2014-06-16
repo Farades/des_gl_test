@@ -1,0 +1,5 @@
+.dub
+.*.swp
+.*.swo
+kinect_scene
+bin/lib*
